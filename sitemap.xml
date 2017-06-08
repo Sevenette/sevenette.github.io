@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/search/index.html</loc>
+    
+    <lastmod>2017-06-08T05:27:13.944Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/project/index.html</loc>
+    
+    <lastmod>2017-06-08T05:08:24.602Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2017-06-08T05:06:30.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/link/index.html</loc>
+    
+    <lastmod>2017-06-08T04:59:30.239Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tag/index.html</loc>
+    
+    <lastmod>2017-06-08T04:56:49.694Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/category/index.html</loc>
+    
+    <lastmod>2017-06-08T04:55:54.423Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/06/07/hello-world/</loc>
     
     <lastmod>2017-06-07T05:46:26.958Z</lastmod>
