@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-08T06:53:09.027Z</updated>
+  <updated>2017-06-08T06:55:41.292Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,18 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>�����ҵĵ�һƪ����</title>
+    <title>这是我的第一篇文章</title>
     <link href="http://yoursite.com/2017/06/08/post/"/>
     <id>http://yoursite.com/2017/06/08/post/</id>
     <published>2017-06-08T06:51:35.000Z</published>
-    <updated>2017-06-08T06:53:09.027Z</updated>
+    <updated>2017-06-08T06:55:41.292Z</updated>
     
-    <content type="html"><![CDATA[<p>����ʲô�����Ӿͺ�\n ��һ�»��з�����</p>
+    <content type="html"><![CDATA[<p>内容什么的无视就好\n 试一下换行符。。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;����ʲô�����Ӿͺ�\n ��һ�»��з�����&lt;/p&gt;
+      &lt;p&gt;内容什么的无视就好\n 试一下换行符。。&lt;/p&gt;
 
     
     </summary>
