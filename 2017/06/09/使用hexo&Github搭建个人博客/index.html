@@ -94,8 +94,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
 
@@ -116,10 +114,12 @@
 <meta property="og:url" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。">
-<meta property="og:updated_time" content="2017-06-09T08:52:31.998Z">
+<meta property="og:image" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/ora3eksx9.bkt.clouddn.comadd_deploy_key.png">
+<meta property="og:updated_time" content="2017-06-09T12:17:07.378Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何使用hexo&amp;Github搭建个人博客">
 <meta name="twitter:description" content="第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。">
+<meta name="twitter:image" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/ora3eksx9.bkt.clouddn.comadd_deploy_key.png">
 
 
 
@@ -396,18 +396,18 @@
 <h2 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h2><p>hexo本质上是一个Node.JS模块，所以需要先安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.JS</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装完github后，桌面上会出现Git Shell，打开后输入npm命令就可以安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ npm install hexo --save</div></pre></td></tr></table></figure></p>
 <p>hexo网址：<a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="external">https://hexo.io/zh-cn/index.html</a></p>
-<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><h2 id="hexo配置-1"><a href="#hexo配置-1" class="headerlink" title="hexo配置"></a>hexo配置</h2><p>根据习惯选择文件夹来配置hexo（例如d:\hexo\），通过Git Shell切换至该路径后，输入命令初始化hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
+<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>根据习惯选择文件夹来配置hexo（例如d:\hexo\），通过Git Shell切换至该路径后，输入命令初始化hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
 <p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;floder&gt;</div><div class="line">$ cd &lt;floder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
 <h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至Git Shell即可自动安装，要保持网络状态良好<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
 <p>此时hexo已经部署完成，可以使用<code>hexo server</code>‌命令打开服务器，并在浏览器中输入<code>http://localhost:4000/</code>来查看hexo生成的网页文件。</p>
 <h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="1-申请github账号，创建仓库"><a href="#1-申请github账号，创建仓库" class="headerlink" title="1.申请github账号，创建仓库"></a>1.申请github账号，创建仓库</h2><p>具体请参考：<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">官方文档</a></p>
-<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
+<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="ora3eksx9.bkt.clouddn.comadd_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
 <h2 id="3-测试连接"><a href="#3-测试连接" class="headerlink" title="3.测试连接"></a>3.测试连接</h2><p>回到git shell，执行: <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -T git@github.com</div></pre></td></tr></table></figure></p>
-<p>出现提示后，输入yes，如果需要输入密码，则输入在设置ssh时自己设定的密码。<br>当提示：<br><code>Hi, 用户名/用户名.github.io! You&#39;ve successfully authenticated, but GitHub does notprovide shell access.</code>证明连接成功。<br></p>
+<p>出现提示后，输入yes，如果需要输入密码，则输入在设置ssh时自己设定的密码。<br>当提示：<code>Hi, 用户名/用户名.github.io! You&#39;ve successfully authenticated, but GitHub does notprovide shell access.</code>证明连接成功。<br></p>
 <h2 id="4-配置-config-yml文件"><a href="#4-配置-config-yml文件" class="headerlink" title="4.配置_config.yml文件"></a>4.配置_config.yml文件</h2><p>在hexo目录下，有一个名为<code>_config.yml</code>的文件，使用记事本打开，做如下修改并保存。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git     //改成git</div><div class="line">  repository: https://github.com/用户名/用户名.github.io    //改成自己的用户名</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
 <h2 id="5-发布博客"><a href="#5-发布博客" class="headerlink" title="5.发布博客"></a>5.发布博客</h2><p>回到git shell,执行如下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
 <p>如果报错：<code>Error: Deployer not found : github</code>，则再执行一次 <code>npm install hexo-deployer-git --save</code> 即可。</p>
-<p>命令成功后，访问 <a href="http://用户名.github.io/即可查看自己的博客网页。" target="_blank" rel="external">http://用户名.github.io/即可查看自己的博客网页。</a></p>
+<p>命令成功后，访问<code>http://用户名.github.io/</code>即可查看自己的博客网页。</p>
 <p><strong>注意：</strong> 每次执行hexo 相关的命令时，都要在hexo的目录下执行。<br>每次修改本地文件过后，都要使用以下命令更新Github中的文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
 <p>后两句命令可缩写为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d -g</div></pre></td></tr></table></figure></p>
 <p>至此博客已经搭建完成，但接下来还有更多的事情要做：hexo主题编辑、博文撰写、域名购买及功能扩充等内容，且听下回分解~</p>
@@ -441,7 +441,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo-Github/" rel="tag"># hexo,Github</a>
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/Github/" rel="tag"># Github</a>
           
         </div>
       
@@ -463,6 +465,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/09/博客图床的建立/" rel="prev" title="博客图床的建立">
+                博客图床的建立 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -541,7 +547,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">Artikel</span>
               </a>
             </div>
@@ -563,7 +569,7 @@
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">Tags</span>
               
             </div>
@@ -605,7 +611,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#环境搭建"><span class="nav-number">1.</span> <span class="nav-text">环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装配置github，设置ssh公钥"><span class="nav-number">1.1.</span> <span class="nav-text">安装配置github，设置ssh公钥</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Node-JS"><span class="nav-number">1.2.</span> <span class="nav-text">安装Node.JS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.3.</span> <span class="nav-text">安装hexo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo配置"><span class="nav-number">2.</span> <span class="nav-text">hexo配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo配置-1"><span class="nav-number">2.1.</span> <span class="nav-text">hexo配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo插件"><span class="nav-number">2.2.</span> <span class="nav-text">安装hexo插件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#部署至Github"><span class="nav-number">3.</span> <span class="nav-text">部署至Github</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-申请github账号，创建仓库"><span class="nav-number">3.1.</span> <span class="nav-text">1.申请github账号，创建仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-将安装github时生成的ssh密钥添加至github仓库"><span class="nav-number">3.2.</span> <span class="nav-text">2.将安装github时生成的ssh密钥添加至github仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-测试连接"><span class="nav-number">3.3.</span> <span class="nav-text">3.测试连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-配置-config-yml文件"><span class="nav-number">3.4.</span> <span class="nav-text">4.配置_config.yml文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-发布博客"><span class="nav-number">3.5.</span> <span class="nav-text">5.发布博客</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#环境搭建"><span class="nav-number">1.</span> <span class="nav-text">环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装配置github，设置ssh公钥"><span class="nav-number">1.1.</span> <span class="nav-text">安装配置github，设置ssh公钥</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Node-JS"><span class="nav-number">1.2.</span> <span class="nav-text">安装Node.JS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.3.</span> <span class="nav-text">安装hexo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo配置"><span class="nav-number">2.</span> <span class="nav-text">hexo配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo插件"><span class="nav-number">2.1.</span> <span class="nav-text">安装hexo插件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#部署至Github"><span class="nav-number">3.</span> <span class="nav-text">部署至Github</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-申请github账号，创建仓库"><span class="nav-number">3.1.</span> <span class="nav-text">1.申请github账号，创建仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-将安装github时生成的ssh密钥添加至github仓库"><span class="nav-number">3.2.</span> <span class="nav-text">2.将安装github时生成的ssh密钥添加至github仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-测试连接"><span class="nav-number">3.3.</span> <span class="nav-text">3.测试连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-配置-config-yml文件"><span class="nav-number">3.4.</span> <span class="nav-text">4.配置_config.yml文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-发布博客"><span class="nav-number">3.5.</span> <span class="nav-text">5.发布博客</span></a></li></ol></li></ol></div>
             
 
           </div>
