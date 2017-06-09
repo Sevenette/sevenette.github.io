@@ -114,12 +114,12 @@
 <meta property="og:url" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。">
-<meta property="og:image" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/ora3eksx9.bkt.clouddn.comadd_deploy_key.png">
-<meta property="og:updated_time" content="2017-06-09T12:17:07.378Z">
+<meta property="og:image" content="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png">
+<meta property="og:updated_time" content="2017-06-09T12:36:47.241Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何使用hexo&amp;Github搭建个人博客">
 <meta name="twitter:description" content="第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。">
-<meta name="twitter:image" content="http://yoursite.com/2017/06/09/使用hexo&Github搭建个人博客/ora3eksx9.bkt.clouddn.comadd_deploy_key.png">
+<meta name="twitter:image" content="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png">
 
 
 
@@ -401,7 +401,7 @@
 <h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至Git Shell即可自动安装，要保持网络状态良好<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
 <p>此时hexo已经部署完成，可以使用<code>hexo server</code>‌命令打开服务器，并在浏览器中输入<code>http://localhost:4000/</code>来查看hexo生成的网页文件。</p>
 <h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="1-申请github账号，创建仓库"><a href="#1-申请github账号，创建仓库" class="headerlink" title="1.申请github账号，创建仓库"></a>1.申请github账号，创建仓库</h2><p>具体请参考：<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">官方文档</a></p>
-<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="ora3eksx9.bkt.clouddn.comadd_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
+<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
 <h2 id="3-测试连接"><a href="#3-测试连接" class="headerlink" title="3.测试连接"></a>3.测试连接</h2><p>回到git shell，执行: <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -T git@github.com</div></pre></td></tr></table></figure></p>
 <p>出现提示后，输入yes，如果需要输入密码，则输入在设置ssh时自己设定的密码。<br>当提示：<code>Hi, 用户名/用户名.github.io! You&#39;ve successfully authenticated, but GitHub does notprovide shell access.</code>证明连接成功。<br></p>
 <h2 id="4-配置-config-yml文件"><a href="#4-配置-config-yml文件" class="headerlink" title="4.配置_config.yml文件"></a>4.配置_config.yml文件</h2><p>在hexo目录下，有一个名为<code>_config.yml</code>的文件，使用记事本打开，做如下修改并保存。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git     //改成git</div><div class="line">  repository: https://github.com/用户名/用户名.github.io    //改成自己的用户名</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>

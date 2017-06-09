@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-09T12:28:40.482Z</updated>
+  <updated>2017-06-09T12:37:30.911Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,19 +20,19 @@
     <link href="http://yoursite.com/2017/06/09/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E7%9A%84%E5%BB%BA%E7%AB%8B/"/>
     <id>http://yoursite.com/2017/06/09/博客图床的建立/</id>
     <published>2017-06-09T11:06:29.000Z</published>
-    <updated>2017-06-09T12:28:40.482Z</updated>
+    <updated>2017-06-09T12:37:30.911Z</updated>
     
     <content type="html"><![CDATA[<p>图床是一个保存图片的云服务器，它可以保证图片链接的稳定和一致性，提高图片加载速度。<br>本文使用的是七牛云服务和Chrome浏览器</p>
 <a id="more"></a>
 <p>图床的设置及使用参考链接：<a href="https://www.zhihu.com/question/19637157/answer/136380837" target="_blank" rel="external">知乎</a></p>
 <h1 id="注册登录"><a href="#注册登录" class="headerlink" title="注册登录"></a>注册登录</h1><p>我们选择的云服务器是<a href="https://portal.qiniu.com/signin" target="_blank" rel="external">七牛</a>，点击链接注册并登陆。</p>
-<h1 id="创建存储空间"><a href="#创建存储空间" class="headerlink" title="创建存储空间"></a>创建存储空间</h1><p>登陆后创建一个对象存储空间，即相册。<br><img src="ora3eksx9.bkt.clouddn.comcreate_a_space_7niu.png" alt="create_a_space"></p>
-<p>创建时要注意空间命名格式。访问控制默认为公开空间。<br><img src="ora3eksx9.bkt.clouddn.comcreate_a_space2_7niu.png" alt="create_a_space2"></p>
+<h1 id="创建存储空间"><a href="#创建存储空间" class="headerlink" title="创建存储空间"></a>创建存储空间</h1><p>登陆后创建一个对象存储空间，即相册。<br><img src="ora3eksx9.bkt.clouddn.com/170609create_a_space_7niu.png" alt="create_a_space"></p>
+<p>创建时要注意空间命名格式。访问控制默认为公开空间。<br><img src="ora3eksx9.bkt.clouddn.com/170609create_a_space2_7niu.png" alt="create_a_space2"></p>
 <p>创建完成后，需要记录下一下三个信息：该存储空间的图片URL前缀、AccessKey和SecretKey</p>
-<p>URL前缀在存储空间的空间概览界面即可查看到：<br><img src="ora3eksx9.bkt.clouddn.comcreate_a_space4_name.png" alt="get_url"></p>
-<p>AccessKey和SecretKey在个人空间的秘钥管理中查询：<br><img src="ora3eksx9.bkt.clouddn.comcreate_a_space3_key.png" alt="get_keys"></p>
+<p>URL前缀在存储空间的空间概览界面即可查看到：<br><img src="ora3eksx9.bkt.clouddn.com/170609create_a_space4_name.png" alt="get_url"></p>
+<p>AccessKey和SecretKey在个人空间的秘钥管理中查询：<br><img src="ora3eksx9.bkt.clouddn.com/170609create_a_space3_key.png" alt="get_keys"></p>
 <h1 id="配置chrome扩展程序"><a href="#配置chrome扩展程序" class="headerlink" title="配置chrome扩展程序"></a>配置chrome扩展程序</h1><p><a href="https://chrome.google.com/webstore/detail/qiniu-upload-files/emmfkgdgapbjphdolealbojmcmnphdcc?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">qiniu upload files</a> 该扩展程序可以快速获取图片列表及图片链接</p>
-<p>安装完成后根据提示填写刚才获取到的url前缀、AccessKey和SecretKey<br><img src="ora3eksx9.bkt.clouddn.comupload_with_chrome.png" alt="chrome&amp;qiniu"></p>
+<p>安装完成后根据提示填写刚才获取到的url前缀、AccessKey和SecretKey<br><img src="ora3eksx9.bkt.clouddn.com/170609upload_with_chrome.png" alt="chrome&amp;qiniu"></p>
 <h1 id="图片上传及图片链接获取"><a href="#图片上传及图片链接获取" class="headerlink" title="图片上传及图片链接获取"></a>图片上传及图片链接获取</h1><p>设置完成后，可以在存储空间界面的内容管理中上传图片文件。使用chrome扩展程序快速获取到图片url链接。</p>
 ]]></content>
     
@@ -41,6 +41,8 @@
       &lt;p&gt;图床是一个保存图片的云服务器，它可以保证图片链接的稳定和一致性，提高图片加载速度。&lt;br&gt;本文使用的是七牛云服务和Chrome浏览器&lt;/p&gt;
     
     </summary>
+    
+      <category term="How_To_Build_A_Blog" scheme="http://yoursite.com/categories/How-To-Build-A-Blog/"/>
     
     
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
@@ -52,7 +54,7 @@
     <link href="http://yoursite.com/2017/06/09/%E4%BD%BF%E7%94%A8hexo&amp;Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/06/09/使用hexo&amp;Github搭建个人博客/</id>
     <published>2017-06-09T07:47:16.000Z</published>
-    <updated>2017-06-09T12:17:07.378Z</updated>
+    <updated>2017-06-09T12:36:47.241Z</updated>
     
     <content type="html"><![CDATA[<p>第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。<br><a id="more"></a></p>
 <h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="安装配置github，设置ssh公钥"><a href="#安装配置github，设置ssh公钥" class="headerlink" title="安装配置github，设置ssh公钥"></a>安装配置github，设置ssh公钥</h2><p><a href="https://github.com/waylau/git-for-win" target="_blank" rel="external">GitHub Windows下载</a></p>
@@ -65,7 +67,7 @@
 <h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至Git Shell即可自动安装，要保持网络状态良好<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
 <p>此时hexo已经部署完成，可以使用<code>hexo server</code>‌命令打开服务器，并在浏览器中输入<code>http://localhost:4000/</code>来查看hexo生成的网页文件。</p>
 <h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="1-申请github账号，创建仓库"><a href="#1-申请github账号，创建仓库" class="headerlink" title="1.申请github账号，创建仓库"></a>1.申请github账号，创建仓库</h2><p>具体请参考：<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">官方文档</a></p>
-<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="ora3eksx9.bkt.clouddn.comadd_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
+<h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
 <h2 id="3-测试连接"><a href="#3-测试连接" class="headerlink" title="3.测试连接"></a>3.测试连接</h2><p>回到git shell，执行: <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -T git@github.com</div></pre></td></tr></table></figure></p>
 <p>出现提示后，输入yes，如果需要输入密码，则输入在设置ssh时自己设定的密码。<br>当提示：<code>Hi, 用户名/用户名.github.io! You&#39;ve successfully authenticated, but GitHub does notprovide shell access.</code>证明连接成功。<br></p>
 <h2 id="4-配置-config-yml文件"><a href="#4-配置-config-yml文件" class="headerlink" title="4.配置_config.yml文件"></a>4.配置_config.yml文件</h2><p>在hexo目录下，有一个名为<code>_config.yml</code>的文件，使用记事本打开，做如下修改并保存。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git     //改成git</div><div class="line">  repository: https://github.com/用户名/用户名.github.io    //改成自己的用户名</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
