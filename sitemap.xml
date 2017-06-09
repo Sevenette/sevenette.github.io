@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2017-06-09T14:13:19.085Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/06/08/post/</loc>
+    
+    <lastmod>2017-06-09T13:34:00.473Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/06/09/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E7%9A%84%E5%BB%BA%E7%AB%8B/</loc>
+    
+    <lastmod>2017-06-09T13:33:41.104Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/404.html</loc>
     
     <lastmod>2017-06-09T13:21:21.536Z</lastmod>
@@ -23,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/06/09/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E7%9A%84%E5%BB%BA%E7%AB%8B/</loc>
-    
-    <lastmod>2017-06-09T12:44:40.093Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2017/06/09/%E4%BD%BF%E7%94%A8hexo&Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2017-06-09T12:41:20.846Z</lastmod>
@@ -47,13 +61,6 @@
     <loc>http://yoursite.com/2017/06/07/hello-world/</loc>
     
     <lastmod>2017-06-08T07:43:56.893Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/06/08/post/</loc>
-    
-    <lastmod>2017-06-08T06:55:41.292Z</lastmod>
     
   </url>
   

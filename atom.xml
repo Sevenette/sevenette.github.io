@@ -5,11 +5,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-09T12:44:40.093Z</updated>
+  <updated>2017-06-09T13:33:41.104Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>MMLQ</name>
+    <name>莫名离秋</name>
     
   </author>
   
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/06/09/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E7%9A%84%E5%BB%BA%E7%AB%8B/"/>
     <id>http://yoursite.com/2017/06/09/博客图床的建立/</id>
     <published>2017-06-09T11:06:29.000Z</published>
-    <updated>2017-06-09T12:44:40.093Z</updated>
+    <updated>2017-06-09T13:33:41.104Z</updated>
     
     <content type="html"><![CDATA[<p>图床是一个保存图片的云服务器，它可以保证图片链接的稳定和一致性，提高图片加载速度。<br>本文使用的是七牛云服务和Chrome浏览器</p>
 <a id="more"></a>
@@ -45,7 +45,7 @@
       <category term="How_To_Build_A_Blog" scheme="http://yoursite.com/categories/How-To-Build-A-Blog/"/>
     
     
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   
@@ -127,24 +127,26 @@
   </entry>
   
   <entry>
-    <title>这是我的第一篇文章</title>
+    <title></title>
     <link href="http://yoursite.com/2017/06/08/post/"/>
     <id>http://yoursite.com/2017/06/08/post/</id>
-    <published>2017-06-08T06:51:35.000Z</published>
-    <updated>2017-06-08T06:55:41.292Z</updated>
+    <published>2017-06-08T06:51:35.342Z</published>
+    <updated>2017-06-09T13:34:00.473Z</updated>
     
-    <content type="html"><![CDATA[<p>内容什么的无视就好\n 试一下换行符。。</p>
+    <content type="html"><![CDATA[<hr>
+<p>layout: my<br>title: 这是我的第一篇文章<br>date: 2017-06-08 14:51:35<br>tags: —</p>
+<p>内容什么的无视就好\n 试一下换行符。。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;内容什么的无视就好\n 试一下换行符。。&lt;/p&gt;
+      &lt;hr&gt;
+&lt;p&gt;layout: my&lt;br&gt;title: 这是我的第一篇文章&lt;br&gt;date: 2017-06-08 14:51:35&lt;br&gt;tags: —&lt;/p&gt;
+&lt;p&gt;内容什么的无视就好\n 试一下换行符。。&lt;/p&gt;
 
     
     </summary>
     
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
