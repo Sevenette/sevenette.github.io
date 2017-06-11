@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-11T15:50:46.635Z</updated>
+  <updated>2017-06-11T15:54:19.793Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://yoursite.com/2017/06/11/%E5%8D%9A%E5%AE%A2%E8%A7%84%E5%88%92/"/>
     <id>http://yoursite.com/2017/06/11/博客规划/</id>
     <published>2017-06-11T15:35:39.000Z</published>
-    <updated>2017-06-11T15:50:46.635Z</updated>
+    <updated>2017-06-11T15:54:19.793Z</updated>
     
     <content type="html"><![CDATA[<p>自己的家，要布置的温馨一些才行。</p>
 <a id="more"></a>
 <h1 id="updated-170611"><a href="#updated-170611" class="headerlink" title="updated 170611"></a>updated 170611</h1><p>现在博客的基本功能已经实现的差不多了，还差评论、搜索和关于界面待完善。下一步打算先丰富博客的内容，并把其他平台的一些文字搬运过来，然后再考虑功能完善的问题。</p>
-<p>从刚接触网络到现在也有十多年的时间了，收集的文字、资料杂七杂八的散落在各种平台上：QQ空间、贴吧、论坛、微博、Lofter、为知笔记、印象笔记…… 一直想找个机会将它们整理一下，但一直没能找到一个好的收纳地点，希望这个博客能够成为它们旅行的重点。</p>
+<p>从刚接触网络到现在也有十多年的时间了，文字、资料杂七杂八的散落在各种平台上：QQ空间、贴吧、论坛、微博、Lofter、为知笔记、印象笔记…… 一直想找个机会整理一下，但一直没能找到一个好的收纳地点，希望这个博客能够成为它们旅行的重点。</p>
 <p>待搬运：读书笔记、python学习笔记</p>
 ]]></content>
     
@@ -45,11 +45,11 @@
     <link href="http://yoursite.com/2017/06/09/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E7%9A%84%E5%BB%BA%E7%AB%8B/"/>
     <id>http://yoursite.com/2017/06/09/博客图床的建立/</id>
     <published>2017-06-09T11:06:29.000Z</published>
-    <updated>2017-06-09T13:33:41.104Z</updated>
+    <updated>2017-06-11T16:12:20.370Z</updated>
     
     <content type="html"><![CDATA[<p>图床是一个保存图片的云服务器，它可以保证图片链接的稳定和一致性，提高图片加载速度。<br>本文使用的是七牛云服务和Chrome浏览器</p>
 <a id="more"></a>
-<p>图床的设置及使用参考链接：<a href="https://www.zhihu.com/question/19637157/answer/136380837" target="_blank" rel="external">知乎</a></p>
+<p>本文参考链接：<a href="https://www.zhihu.com/question/19637157/answer/136380837" target="_blank" rel="external">知乎-艾豆儿的回答</a></p>
 <h1 id="注册登录"><a href="#注册登录" class="headerlink" title="注册登录"></a>注册登录</h1><p>我们选择的云服务器是<a href="https://portal.qiniu.com/signin" target="_blank" rel="external">七牛</a>，点击链接注册并登陆。</p>
 <h1 id="创建存储空间"><a href="#创建存储空间" class="headerlink" title="创建存储空间"></a>创建存储空间</h1><p>登陆后创建一个对象存储空间，即相册。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609create_a_space_7niu.png" alt="create_a_space"></p>
 <p>创建时要注意空间命名格式。访问控制默认为公开空间。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609create_a_space2_7niu.png" alt="create_a_space2"></p>
@@ -79,7 +79,7 @@
     <link href="http://yoursite.com/2017/06/09/%E4%BD%BF%E7%94%A8hexo&amp;Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/06/09/使用hexo&amp;Github搭建个人博客/</id>
     <published>2017-06-09T07:47:16.000Z</published>
-    <updated>2017-06-09T12:41:20.846Z</updated>
+    <updated>2017-06-11T16:05:33.538Z</updated>
     
     <content type="html"><![CDATA[<p>第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。<br><a id="more"></a></p>
 <h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="安装配置github，设置ssh公钥"><a href="#安装配置github，设置ssh公钥" class="headerlink" title="安装配置github，设置ssh公钥"></a>安装配置github，设置ssh公钥</h2><p><a href="https://github.com/waylau/git-for-win" target="_blank" rel="external">GitHub Windows下载</a></p>
@@ -87,9 +87,9 @@
 <h2 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h2><p>hexo本质上是一个Node.JS模块，所以需要先安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.JS</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装完github后，桌面上会出现Git Shell，打开后输入npm命令就可以安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ npm install hexo --save</div></pre></td></tr></table></figure></p>
 <p>hexo网址：<a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="external">https://hexo.io/zh-cn/index.html</a></p>
-<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>根据习惯选择文件夹来配置hexo（例如d:\hexo\），通过Git Shell切换至该路径后，输入命令初始化hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
+<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>根据习惯选择文件夹来配置hexo（例如d:\hexo\），打开命令行窗口，切换至刚选择的配置路径，输入一下命令进行初始化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
 <p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;floder&gt;</div><div class="line">$ cd &lt;floder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
-<h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至Git Shell即可自动安装，要保持网络状态良好<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
+<h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至命令行窗口即可自动安装。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
 <p>此时hexo已经部署完成，可以使用<code>hexo server</code>‌命令打开服务器，并在浏览器中输入<code>http://localhost:4000/</code>来查看hexo生成的网页文件。</p>
 <h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="1-申请github账号，创建仓库"><a href="#1-申请github账号，创建仓库" class="headerlink" title="1.申请github账号，创建仓库"></a>1.申请github账号，创建仓库</h2><p>具体请参考：<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">官方文档</a></p>
 <h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
@@ -178,17 +178,17 @@
     <link href="http://yoursite.com/2017/06/08/%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8/"/>
     <id>http://yoursite.com/2017/06/08/测试专用/</id>
     <published>2017-06-08T04:12:12.000Z</published>
-    <updated>2017-06-09T15:31:26.826Z</updated>
+    <updated>2017-06-11T16:12:30.733Z</updated>
     
-    <content type="html"><![CDATA[<p><del>~</del>~ update 170509 <del>~</del>~</p>
+    <content type="html"><![CDATA[<p><del>~</del>~ updated 170509 <del>~</del>~</p>
 <p>测试网易云音乐的播放器：</p>
 <embed src="//music.163.com/style/swf/widget.swf?sid=757160122&type=0&auto=1&width=310&height=90" width="330" height="110" allownetworking="all">]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;del&gt;~&lt;/del&gt;~ update 170509 &lt;del&gt;~&lt;/del&gt;~&lt;/p&gt;
+      &lt;p&gt;&lt;del&gt;~&lt;/del&gt;~ updated 170509 &lt;del&gt;~&lt;/del&gt;~&lt;/p&gt;
 &lt;p&gt;测试网易云音乐的播放器：&lt;/p&gt;
-&lt;embed src=&quot;//music.163.com/style/swf/widget.swf?sid=757160122&amp;type=0&amp;a
+&lt;embed src=&quot;//music.163.com/style/swf/widget.swf?sid=757160122&amp;type=0&amp;
     
     </summary>
     
