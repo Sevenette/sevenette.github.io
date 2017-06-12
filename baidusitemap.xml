@@ -50,24 +50,6 @@
     
     
   <url>
-    <loc>http://yoursite.com/2017/06/08/%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8/</loc>
-    <lastmod>2017-06-11T04:12:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>测试专用</title>
-        <pubTime>2017-06-08T04:12:12.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="瞎折腾" url="http://yoursite.com/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/06/09/%E4%BD%BF%E7%94%A8hexo&Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2017-06-11T04:12:12.000Z</lastmod>
     <data>
@@ -83,6 +65,24 @@
            
              
               <breadCrumb title="How_To_Build_A_Blog" url="http://yoursite.com/categories/How-To-Build-A-Blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/06/08/%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8/</loc>
+    <lastmod>2017-06-11T04:12:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>测试专用</title>
+        <pubTime>2017-06-08T04:12:12.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="瞎折腾" url="http://yoursite.com/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
           
         </display>
     </data>
