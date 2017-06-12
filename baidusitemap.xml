@@ -25,7 +25,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/06/12/hexo%E8%BF%9B%E9%98%B6%E5%8A%9F%E8%83%BD%E9%85%8D%E7%BD%AE(1)/</loc>
-    <lastmod>2017-06-12T04:32:03.177Z</lastmod>
+    <lastmod>2017-06-12T04:39:35.135Z</lastmod>
     <data>
         <display>
         <title>hexo进阶功能配置(1)</title>
@@ -45,12 +45,13 @@
     </url>
 
     
+    
   <url>
     <loc>http://yoursite.com/2017/06/12/hexo%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2017-06-12T03:14:44.000Z</lastmod>
     <data>
         <display>
-        <title>2. hexo主题安装及站点配置</title>
+        <title>hexo主题安装及站点配置</title>
         <pubTime>2017-06-12T03:14:44.000Z</pubTime>
         
         <tag>hexo</tag>
@@ -107,7 +108,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/2017/06/08/%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8/</loc>
