@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-11T15:54:19.793Z</updated>
+  <updated>2017-06-12T03:56:24.376Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>显示文章的更新时间</title>
+    <link href="http://yoursite.com/2017/06/12/%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E7%9A%84%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/"/>
+    <id>http://yoursite.com/2017/06/12/显示文章的更新时间/</id>
+    <published>2017-06-12T03:45:29.000Z</published>
+    <updated>2017-06-12T03:56:24.376Z</updated>
+    
+    <content type="html"><![CDATA[<p>显示每篇文章的更新时间，需要修改主题的js代码。</p>
+<p>#主题代码</p>
+<p>关于文章创建时间的主题代码，在<code>hexo\themes\next\layout\_macro\post.swig</code>文件中,在 <code>&lt;div class=&quot;post-meta&quot;&gt; &lt;span class=&quot;post-time&quot;&gt;</code>标签结尾前添加以下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&#123;%if post.updated and post.updated &gt; post.date%&#125;</div><div class="line">  &lt;span class=&quot;post-updated&quot;&gt;</div><div class="line">	&amp;nbsp; | &amp;nbsp; &#123;&#123; __(&apos;post.updated&apos;) &#125;&#125;</div><div class="line">	&lt;time itemprop=&quot;dateUpdated&quot; datetime=&quot;&#123;&#123; moment(post.updated).format() &#125;&#125;&quot; content=&quot;&#123;&#123; date(post.updated, config.date_format) &#125;&#125;&quot;&gt;</div><div class="line">	  &#123;&#123; date(post.updated, config.date_format) &#125;&#125;</div><div class="line">	&lt;/time&gt;</div><div class="line">  &lt;/span&gt;</div><div class="line">&#123;% endif %&#125;</div></pre></td></tr></table></figure></p>
+<p>post-updated用来访问对应的语言配置文件里的值，theme.来访问主题配置文件的变量，post.来访问每篇文章的前置设置(Front Matter)里的变量。<br>代码里需要保证updated的时间是date之后才会显示。</p>
+<p>#修改语言配置文件<br>在<code>hexo\themes\next\languages\zh-Hans.yml</code>文件中添加一行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">post:</div><div class="line">  updated: 更新于</div></pre></td></tr></table></figure></p>
+<p>#主题配置文件<br><code>hexo\themes\next\_config.ym</code>l添加一行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">display_updated: true</div></pre></td></tr></table></figure></p>
+<p>#文章中添加修改日期<br>在文章的开头添加<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">updated: 2017-06-12 11:45:29</div></pre></td></tr></table></figure></p>
+<p>然后hexo g 更新后即可查看效果。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;显示每篇文章的更新时间，需要修改主题的js代码。&lt;/p&gt;
+&lt;p&gt;#主题代码&lt;/p&gt;
+&lt;p&gt;关于文章创建时间的主题代码，在&lt;code&gt;hexo\themes\next\layout\_macro\post.swig&lt;/code&gt;文件中,在 &lt;code&gt;&amp;lt;div clas
+    
+    </summary>
+    
+      <category term="How_To_Build_A_Blog" scheme="http://yoursite.com/categories/How-To-Build-A-Blog/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2. hexo主题安装及站点配置</title>
+    <link href="http://yoursite.com/2017/06/12/hexo%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2017/06/12/hexo主题安装及站点配置/</id>
+    <published>2017-06-12T03:14:44.000Z</published>
+    <updated>2017-06-12T03:44:04.251Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="How_To_Build_A_Blog" scheme="http://yoursite.com/categories/How-To-Build-A-Blog/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>博客规划</title>
@@ -75,11 +127,11 @@
   </entry>
   
   <entry>
-    <title>如何使用hexo&amp;Github搭建个人博客</title>
+    <title>1. 使用hexo&amp;Github搭建个人博客</title>
     <link href="http://yoursite.com/2017/06/09/%E4%BD%BF%E7%94%A8hexo&amp;Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/06/09/使用hexo&amp;Github搭建个人博客/</id>
     <published>2017-06-09T07:47:16.000Z</published>
-    <updated>2017-06-11T16:05:33.538Z</updated>
+    <updated>2017-06-12T03:42:09.672Z</updated>
     
     <content type="html"><![CDATA[<p>第一次搭建博客，用了两天的时间，还有很多待添加的功能，但基本框架已经完成了。<br><a id="more"></a></p>
 <h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="安装配置github，设置ssh公钥"><a href="#安装配置github，设置ssh公钥" class="headerlink" title="安装配置github，设置ssh公钥"></a>安装配置github，设置ssh公钥</h2><p><a href="https://github.com/waylau/git-for-win" target="_blank" rel="external">GitHub Windows下载</a></p>
@@ -87,10 +139,12 @@
 <h2 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h2><p>hexo本质上是一个Node.JS模块，所以需要先安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.JS</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装完github后，桌面上会出现Git Shell，打开后输入npm命令就可以安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ npm install hexo --save</div></pre></td></tr></table></figure></p>
 <p>hexo网址：<a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="external">https://hexo.io/zh-cn/index.html</a></p>
-<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>根据习惯选择文件夹来配置hexo（例如d:\hexo\），打开命令行窗口，切换至刚选择的配置路径，输入一下命令进行初始化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
+<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>Hexo 3.0 把服务器独立成了个别模块，我们必须得在站点文件夹根目录下安装之后才能使用。</p>
+<p>根据习惯选择安装路径（例如d:\hexo\），打开命令行窗口，切换至刚选择的配置路径，输入一下命令进行初始化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
 <p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;floder&gt;</div><div class="line">$ cd &lt;floder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
 <h2 id="安装hexo插件"><a href="#安装hexo插件" class="headerlink" title="安装hexo插件"></a>安装hexo插件</h2><p>初始化完成后需要安装以下hexo插件，直接复制该段命令至命令行窗口即可自动安装。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div><div class="line">npm install hexo-renderer-marked@0.2 --save</div><div class="line">npm install hexo-renderer-stylus@0.2 --save</div><div class="line">npm install hexo-generator-feed@1 --save</div><div class="line">npm install hexo-generator-sitemap@1 --save</div></pre></td></tr></table></figure></p>
 <p>此时hexo已经部署完成，可以使用<code>hexo server</code>‌命令打开服务器，并在浏览器中输入<code>http://localhost:4000/</code>来查看hexo生成的网页文件。</p>
+<p><img src="http://ora3eksx9.bkt.clouddn.com/170609hexo_hello_world.png" alt="hexo_hello_world"></p>
 <h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="1-申请github账号，创建仓库"><a href="#1-申请github账号，创建仓库" class="headerlink" title="1.申请github账号，创建仓库"></a>1.申请github账号，创建仓库</h2><p>具体请参考：<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">官方文档</a></p>
 <h2 id="2-将安装github时生成的ssh密钥添加至github仓库"><a href="#2-将安装github时生成的ssh密钥添加至github仓库" class="headerlink" title="2.将安装github时生成的ssh密钥添加至github仓库"></a>2.将安装github时生成的ssh密钥添加至github仓库</h2><p>密钥保存在.ssh目录的id_rsa.pub文件中，.ssh目录一般在C:\Users(计算机用户名).ssh目录下。<br><img src="http://ora3eksx9.bkt.clouddn.com/170609add_deploy_key.png" alt="add_deploy_key.png"><br><strong>注意：</strong>在添加时要勾选允许写入操作(allow write access)的选项</p>
 <h2 id="3-测试连接"><a href="#3-测试连接" class="headerlink" title="3.测试连接"></a>3.测试连接</h2><p>回到git shell，执行: <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -T git@github.com</div></pre></td></tr></table></figure></p>
@@ -149,28 +203,6 @@
     
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这是我的第一篇文章</title>
-    <link href="http://yoursite.com/2017/06/08/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2017/06/08/这是我的第一篇文章/</id>
-    <published>2017-06-08T06:51:35.000Z</published>
-    <updated>2017-06-09T15:17:41.914Z</updated>
-    
-    <content type="html"><![CDATA[<p>内容什么的无视就好\n 试一下换行符。。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;内容什么的无视就好\n 试一下换行符。。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="瞎折腾" scheme="http://yoursite.com/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
-    
     
   </entry>
   
