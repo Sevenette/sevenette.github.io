@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[web scraper数据抓取入门]]></title>
     <url>%2F2017%2F06%2F14%2Fscraper%E6%95%B0%E6%8D%AE%E6%8A%93%E5%8F%96%E5%85%A5%E9%97%A8%2F</url>
-    <content type="text"><![CDATA[偶然间看到三节课一堂关于数据抓取的免费课程，课程描述上写道：无需编程也可以玩爬虫，一直对爬虫略感兴趣的我毫不犹豫的选择了报名。（这不是广告…）课程介绍的是Web scrapder这个chrome的扩展程序，它依托于chrome浏览器实现了傻瓜式数据抓取，不会变成也可以成为一个geek~感谢作者@陈大欣 精心录制的课程因为完成学习后比较少使用这个工具，决定把一些使用要点记录下来方便日后查阅。 作者在b站也有上传讲解视频，内容跟三节课上的差不多：入门 、 进阶 Web scrapder是一个chorme浏览器上的扩展程序：官方也提供了简单的入门视频及使用文档，但是是英文版的：webscraper使用手册]]></content>
+    <content type="text"><![CDATA[使用web scraper + chrome 完成网页数据的爬取，零编程也可以玩爬虫啦~ 偶然间看到三节课一堂关于数据抓取的免费课程，课程描述上写道：无需编程也可以玩爬虫，一直对爬虫略感兴趣的我毫不犹豫的选择了报名。（这不是广告…）感谢@陈大欣精心制作了这门课程。作者在b站也有上传讲解视频，内容跟三节课的差不多：入门 、 进阶因为完成学习后比较少使用，决定把一些使用要点记录下来方便日后查阅。 Web scrapder是一个chorme浏览器上的扩展程序，它依托于chrome浏览器实现了傻瓜式数据抓取，让零编程基础的使用者也可以快速掌握数据抓取技术，获得想要的数据。官方提供了简单的入门视频及使用文档，但是是英文版的：webscraper使用手册 使用excel抓取数据安装在chrome应用商店下载 并在chrome浏览器内安装。（网盘下载链接待补） 打开Web scraperweb scraper整合在了chrome的开发者工具中，因此想要打开它，需要先打开开发者工具，菜单路径为：/更多工具/开发者工具，或使用快捷键lCtrl+Shift+I或f12 (linux &amp; windows)、Cmd+Opt+I (mac)。]]></content>
       <categories>
         <category>爬虫</category>
       </categories>
