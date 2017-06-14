@@ -44,12 +44,12 @@
     <link href="http://yoursite.com/2017/06/14/scraper%E6%95%B0%E6%8D%AE%E6%8A%93%E5%8F%96%E5%85%A5%E9%97%A8/"/>
     <id>http://yoursite.com/2017/06/14/scraper数据抓取入门/</id>
     <published>2017-06-14T14:03:25.000Z</published>
-    <updated>2017-06-14T14:57:02.567Z</updated>
+    <updated>2017-06-14T15:00:02.512Z</updated>
     
-    <content type="html"><![CDATA[<p>使用web scraper + chrome 完成网页数据的爬取，零编程也可以玩爬虫啦~</p>
+    <content type="html"><![CDATA[<p>使用web scraper + chrome 完成网页数据的爬取，零编程基础也可以玩爬虫啦~</p>
 <a id="more"></a>
 <p>偶然间看到三节课一堂关于数据抓取的免费课程，课程描述上写道：无需编程也可以玩爬虫，一直对爬虫略感兴趣的我毫不犹豫的选择了报名。（这不是广告…）<br>感谢<a href="https://www.zhihu.com/people/chen-da-xin-84/activities" target="_blank" rel="external">@陈大欣</a>精心制作了这门课程。作者在b站也有上传讲解视频，内容跟三节课的差不多：<a href="https://www.bilibili.com/video/av9664397/" target="_blank" rel="external">入门</a> 、 <a href="https://www.bilibili.com/video/av9708200/" target="_blank" rel="external">进阶</a><br>因为完成学习后比较少使用，决定把一些使用要点记录下来方便日后查阅。</p>
-<p><a href="http://webscraper.io/" target="_blank" rel="external">Web scrapder</a>是一个chorme浏览器上的扩展程序，它依托于chrome浏览器实现了傻瓜式数据抓取，让零编程基础的使用者也可以快速掌握数据抓取技术，获得想要的数据。<br>官方提供了简单的入门视频及使用文档，但是是英文版的：<a href="http://webscraper.io/documentation" target="_blank" rel="external">webscraper使用手册</a></p>
+<p><a href="http://webscraper.io/" target="_blank" rel="external">Web scraper</a>是一个chorme浏览器上的扩展程序，它依托于chrome浏览器实现了傻瓜式数据抓取，让零编程基础的使用者也可以快速掌握数据抓取技术，获得想要的数据。<br>官方提供了简单的入门视频及使用文档，但是是英文版的：<a href="http://webscraper.io/documentation" target="_blank" rel="external">webscraper使用手册</a></p>
 <h1 id="使用excel抓取数据"><a href="#使用excel抓取数据" class="headerlink" title="使用excel抓取数据"></a>使用excel抓取数据</h1><p>方法请参考：<a href="https://zhihu.com/question/47883186/answer/151959866" target="_blank" rel="external">零基础如何学爬虫技术？ - 回答作者: 李明殊</a><br>不过这种方法只适合网页上table类型的数据，适用面比较窄。</p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>在chrome应用商店<a href="https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=zh-CN" target="_blank" rel="external">下载</a> 并在chrome浏览器内安装。</p>
 <h1 id="打开Web-scraper"><a href="#打开Web-scraper" class="headerlink" title="打开Web scraper"></a>打开Web scraper</h1><p>web scraper整合在了chrome的开发者工具中，因此想要打开它，需要先打开开发者工具，菜单路径为：/更多工具/开发者工具，或使用快捷键lCtrl+Shift+I或f12 (linux &amp; windows)、Cmd+Opt+I (mac)。</p>
@@ -57,11 +57,15 @@
     
     <summary type="html">
     
-      &lt;p&gt;使用web scraper + chrome 完成网页数据的爬取，零编程也可以玩爬虫啦~&lt;/p&gt;
+      &lt;p&gt;使用web scraper + chrome 完成网页数据的爬取，零编程基础也可以玩爬虫啦~&lt;/p&gt;
     
     </summary>
     
       <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="Excel" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/Excel/"/>
+    
+      <category term="数据分析" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/Excel/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
       <category term="Web Scraper" scheme="http://yoursite.com/tags/Web-Scraper/"/>
