@@ -112,10 +112,14 @@
 <meta property="og:url" content="http://yoursite.com/2017/06/14/scraper数据抓取入门/index.html">
 <meta property="og:site_name" content="Momingliqiu&#39;s blog">
 <meta property="og:description" content="使用web scraper + chrome 完成网页数据的爬取，零编程基础也可以玩爬虫啦~">
-<meta property="og:updated_time" content="2017-06-14T15:23:55.533Z">
+<meta property="og:image" content="http://ora3eksx9.bkt.clouddn.com/data%20scraper%20tools.png">
+<meta property="og:image" content="http://ora3eksx9.bkt.clouddn.com/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7.png">
+<meta property="og:image" content="http://ora3eksx9.bkt.clouddn.com/find_web_scraper.png">
+<meta property="og:updated_time" content="2017-06-22T16:48:56.165Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="web scraper数据抓取入门">
 <meta name="twitter:description" content="使用web scraper + chrome 完成网页数据的爬取，零编程基础也可以玩爬虫啦~">
+<meta name="twitter:image" content="http://ora3eksx9.bkt.clouddn.com/data%20scraper%20tools.png">
 
 
 
@@ -348,8 +352,8 @@
 
   <span class="post-updated">
 	&nbsp; | &nbsp; 更新于
-	<time itemprop="dateUpdated" datetime="2017-06-14T23:23:55+08:00" content="2017-06-14">
-	  2017-06-14
+	<time itemprop="dateUpdated" datetime="2017-06-23T00:48:56+08:00" content="2017-06-23">
+	  2017-06-23
 	</time>
   </span>
 
@@ -412,9 +416,11 @@
 <a id="more"></a>
 <p>偶然间看到三节课一堂关于数据抓取的免费课程，课程描述上写道：无需编程也可以玩爬虫，一直对爬虫略感兴趣的我毫不犹豫的选择了报名。（这不是广告…）因为完成学习后比较少使用，决定把一些使用要点记录下来方便日后查阅。<br>感谢<a href="https://www.zhihu.com/people/chen-da-xin-84/activities" target="_blank" rel="external">@陈大欣</a>精心制作了这门课程。作者在b站也有上传讲解视频，内容跟三节课的差不多：<a href="https://www.bilibili.com/video/av9664397/" target="_blank" rel="external">入门</a> 、 <a href="https://www.bilibili.com/video/av9708200/" target="_blank" rel="external">进阶</a></p>
 <p><a href="http://webscraper.io/" target="_blank" rel="external">Web scraper</a>是一个chorme浏览器上的扩展程序，它依托于chrome浏览器实现了傻瓜式数据抓取，让零编程基础的使用者也可以快速掌握数据抓取技术，获得想要的数据。<br>官方提供了简单的入门视频及使用文档，但是是英文版的：<a href="http://webscraper.io/documentation" target="_blank" rel="external">webscraper使用手册</a></p>
-<h1 id="使用excel抓取数据"><a href="#使用excel抓取数据" class="headerlink" title="使用excel抓取数据"></a>使用excel抓取数据</h1><p>介绍web scraper前，先介绍一个更加简单的方法，使用excel直接获取网页中的表格数据，方法请参考：<a href="https://zhihu.com/question/47883186/answer/151959866" target="_blank" rel="external">零基础如何学爬虫技术？ - 回答作者: 李明殊</a><br>不过这种方法只适合网页上table类型的数据，适用面比较窄。</p>
+<p>课程中提到了一些常用的爬虫技术，并用下图对各个技术的适用性及学习难度进行了描述。<br><img src="http://ora3eksx9.bkt.clouddn.com/data%20scraper%20tools.png" alt="data scraper tools.png"></p>
+<h1 id="使用excel抓取数据"><a href="#使用excel抓取数据" class="headerlink" title="使用excel抓取数据"></a>使用excel抓取数据</h1><p>学习web scraper之前，先介绍这个更加简单抓取的方法，使用excel直接获取网页中的表格数据，方法请参考：<a href="https://zhihu.com/question/47883186/answer/151959866" target="_blank" rel="external">零基础如何学爬虫技术？ - 回答作者: 李明殊</a><br>不过这种方法只适合网页上table类型的数据，适用面比较窄。</p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>在chrome应用商店<a href="https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=zh-CN" target="_blank" rel="external">下载</a> 并在chrome浏览器内安装。</p>
-<h1 id="打开Web-scraper"><a href="#打开Web-scraper" class="headerlink" title="打开Web scraper"></a>打开Web scraper</h1><p>web scraper整合在了chrome的开发者工具中，因此想要打开它，需要先打开开发者工具，菜单路径为：/更多工具/开发者工具，或使用快捷键Ctrl+Shift+I或F12 (linux &amp; windows)、Cmd+Opt+I (mac)。</p>
+<h1 id="打开Web-scraper"><a href="#打开Web-scraper" class="headerlink" title="打开Web scraper"></a>打开Web scraper</h1><p>web scraper整合在了chrome的开发者工具中，因此想要打开它，需要先打开开发者工具，菜单路径为：/更多工具/开发者工具，或使用快捷键Ctrl+Shift+I或F12 (linux &amp; windows)、Cmd+Opt+I (mac)。<br><img src="http://ora3eksx9.bkt.clouddn.com/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7.png" alt="开发者工具.png]"></p>
+<p>然后在打开的控制台中，找到web scraper页签：<br><img src="http://ora3eksx9.bkt.clouddn.com/find_web_scraper.png" alt="find_web_scraper.png]"></p>
 
       
     </div>
