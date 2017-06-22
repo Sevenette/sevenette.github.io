@@ -81,7 +81,12 @@
     <published>2017-06-13T03:14:44.000Z</published>
     <updated>2017-06-12T03:14:44.000Z</updated>
     
+    <content type="html"><![CDATA[<p>挖坑待填。。。</p>
+<a id="more"></a>]]></content>
+    
     <summary type="html">
+    
+      &lt;p&gt;挖坑待填。。。&lt;/p&gt;
     
     </summary>
     
@@ -231,16 +236,17 @@
     <published>2017-06-08T04:12:12.000Z</published>
     <updated>2017-06-11T04:12:12.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="updated-170611"><a href="#updated-170611" class="headerlink" title="updated 170611"></a>updated 170611</h1><p>现在博客的基本功能已经实现的差不多了，还差评论、搜索和关于界面待完善。下一步打算先丰富博客的内容，并把其他平台的一些文字搬运过来，然后再考虑功能完善的问题。</p>
+    <content type="html"><![CDATA[<p>测试专用页，或许还会成为更新日志…</p>
+<a id="more"></a>
+<h1 id="updated-170611"><a href="#updated-170611" class="headerlink" title="updated 170611"></a>updated 170611</h1><p>现在博客的基本功能已经实现的差不多了，还差评论、搜索和关于界面待完善。下一步打算先丰富博客的内容，并把其他平台的一些文字搬运过来，然后再考虑功能完善的问题。</p>
 <p>从刚接触网络到现在也有十多年的时间了，文字、资料杂七杂八的散落在各种平台上：QQ空间、贴吧、论坛、微博、Lofter、为知笔记、印象笔记…… 一直想找个机会整理一下，但一直没能找到一个好的收纳地点，希望这个博客能够成为它们旅行的重点。</p>
 <p>待搬运：读书笔记、python学习笔记</p>
-<p><del>~</del>~ updated 170509 <del>~</del>~</p>
-<p>测试网易云音乐的播放器：</p>
+<h1 id="updated-170509"><a href="#updated-170509" class="headerlink" title="updated 170509"></a>updated 170509</h1><p>测试网易云音乐的播放器：</p>
 <embed src="//music.163.com/style/swf/widget.swf?sid=757160122&type=0&auto=1&width=310&height=90" width="330" height="110" allownetworking="all">]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;updated-170611&quot;&gt;&lt;a href=&quot;#updated-170611&quot; class=&quot;headerlink&quot; title=&quot;updated 170611&quot;&gt;&lt;/a&gt;updated 170611&lt;/h1&gt;&lt;p&gt;现在博客的基本功能已经实现的差不多了，还差评
+      &lt;p&gt;测试专用页，或许还会成为更新日志…&lt;/p&gt;
     
     </summary>
     

@@ -27,7 +27,7 @@
   <entry>
     <title><![CDATA[hexo主题安装及站点配置]]></title>
     <url>%2F2017%2F06%2F13%2Fhexo%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E5%8F%8A%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[挖坑待填。。。]]></content>
       <categories>
         <category>How_To_Build_A_Blog</category>
       </categories>
@@ -73,7 +73,7 @@
   <entry>
     <title><![CDATA[测试专用]]></title>
     <url>%2F2017%2F06%2F08%2F%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[updated 170611现在博客的基本功能已经实现的差不多了，还差评论、搜索和关于界面待完善。下一步打算先丰富博客的内容，并把其他平台的一些文字搬运过来，然后再考虑功能完善的问题。 从刚接触网络到现在也有十多年的时间了，文字、资料杂七杂八的散落在各种平台上：QQ空间、贴吧、论坛、微博、Lofter、为知笔记、印象笔记…… 一直想找个机会整理一下，但一直没能找到一个好的收纳地点，希望这个博客能够成为它们旅行的重点。 待搬运：读书笔记、python学习笔记 ~~ updated 170509 ~~ 测试网易云音乐的播放器：]]></content>
+    <content type="text"><![CDATA[测试专用页，或许还会成为更新日志… updated 170611现在博客的基本功能已经实现的差不多了，还差评论、搜索和关于界面待完善。下一步打算先丰富博客的内容，并把其他平台的一些文字搬运过来，然后再考虑功能完善的问题。 从刚接触网络到现在也有十多年的时间了，文字、资料杂七杂八的散落在各种平台上：QQ空间、贴吧、论坛、微博、Lofter、为知笔记、印象笔记…… 一直想找个机会整理一下，但一直没能找到一个好的收纳地点，希望这个博客能够成为它们旅行的重点。 待搬运：读书笔记、python学习笔记 updated 170509测试网易云音乐的播放器：]]></content>
       <categories>
         <category>瞎折腾</category>
       </categories>
