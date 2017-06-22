@@ -104,8 +104,7 @@
     <published>2017-06-12T03:45:29.000Z</published>
     <updated>2017-06-12T04:45:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>添加每篇文章的更新时间显示功能<br>使用七牛云存储建立博客图床<br>腾讯公益404界面<br><em>添加sitemap
-</em>添加RSS</p>
+    <content type="html"><![CDATA[<p>添加每篇文章的更新时间显示功能<br>使用七牛云存储建立博客图床<br>腾讯公益404界面<br><em>添加sitemap</em><br><em>添加RSS</em></p>
 <a id="more"></a>
 <p>安装插件时需要注意：<code>You either DO NOT define plugins and let Hexo search for them or define ALL the plugins you used.</code></p>
 <h1 id="添加文章的更新时间"><a href="#添加文章的更新时间" class="headerlink" title="添加文章的更新时间"></a>添加文章的更新时间</h1><h2 id="修改主题代码"><a href="#修改主题代码" class="headerlink" title="修改主题代码"></a>修改主题代码</h2><p>关于文章创建时间的主题代码，在<code>hexo\themes\next\layout\_macro\post.swig</code>文件中,在 <code>&lt;div class=&quot;post-meta&quot;&gt; &lt;span class=&quot;post-time&quot;&gt;</code>标签结尾前添加以下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&#123;%if post.updated and post.updated &gt; post.date%&#125;</div><div class="line">  &lt;span class=&quot;post-updated&quot;&gt;</div><div class="line">	&amp;nbsp; | &amp;nbsp; &#123;&#123; __(&apos;post.updated&apos;) &#125;&#125;</div><div class="line">	&lt;time itemprop=&quot;dateUpdated&quot; datetime=&quot;&#123;&#123; moment(post.updated).format() &#125;&#125;&quot; content=&quot;&#123;&#123; date(post.updated, config.date_format) &#125;&#125;&quot;&gt;</div><div class="line">	  &#123;&#123; date(post.updated, config.date_format) &#125;&#125;</div><div class="line">	&lt;/time&gt;</div><div class="line">  &lt;/span&gt;</div><div class="line">&#123;% endif %&#125;</div></pre></td></tr></table></figure></p>
@@ -134,8 +133,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;添加每篇文章的更新时间显示功能&lt;br&gt;使用七牛云存储建立博客图床&lt;br&gt;腾讯公益404界面&lt;br&gt;&lt;em&gt;添加sitemap
-&lt;/em&gt;添加RSS&lt;/p&gt;
+      &lt;p&gt;添加每篇文章的更新时间显示功能&lt;br&gt;使用七牛云存储建立博客图床&lt;br&gt;腾讯公益404界面&lt;br&gt;&lt;em&gt;添加sitemap&lt;/em&gt;&lt;br&gt;&lt;em&gt;添加RSS&lt;/em&gt;&lt;/p&gt;
     
     </summary>
     
